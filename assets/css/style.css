@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sansation';
+    font-size: 16px;
+    box-sizing: border-box;
+}
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a, a:focus {
+    outline: none;
+    text-decoration: none;
+    color: #000000;
+}
+a:hover {
+    text-decoration: none;
+}
+h6, h5, h4, h3, h2, h1 {
+    clear: both;
+    margin: 0;
+	color: #000000;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Sansation';
+}
+p {
+    margin:  0;
+    font-size: 1rem;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Sansation';
+    color: #000000;
+    font-weight: 300;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.profile-card {
+    background-color: #fff;
+    width: 420px;
+    max-width: 480px;
+    margin: 0 auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1;
+}
+
+.profile-card .profile-top .shape {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+.profile-card .profile-top {
+    padding-top: 160px;
+    padding-bottom: 75px;
+    background-image: url(../doha-img1.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+.button a {
+    display: inline-block;
+    background-color: #94d40b;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.profile-card .profile-top .logo img {
+    border-radius: 10px;
+}
+.profile-card .profile-top .logo {
+    margin-bottom: 15px;
+}
+.profile-card .profile-top .name {
+    color: #405266;
+    font-size: 20px;
+}
+.profile-card .profile-top .designation {
+    color: #405266;
+    font-weight: 400;
+}
+.profile-card .contact-list {
+    padding: 0 15px ;
+}
+.profile-card .contact-list .item {
+    background-color: #f4fbe7;
+    padding: 20px;
+}
+.profile-card .contact-list .item + .item {
+    margin-top: 20px;
+}
+.profile-card .contact-list .item a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+    color: #405266;
+}
+.profile-card .contact-list .item address {
+    font-weight: 400;
+    line-height: 1.5;
+}
+.profile-card footer {
+    background-color: #94d40b;
+    padding: 20px;
+    margin: 20px 15px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+}
