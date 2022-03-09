@@ -41,12 +41,19 @@ p {
 
 .profile-card {
     background-color: #fff;
-    width: 420px;
+    width: 100%;
     max-width: 480px;
     margin: 0 auto;
     border: 1px solid rgba(0, 0, 0, 0.1);
     position: relative;
     z-index: 1;
+}
+
+@media(max-width:500px){
+	.profile-card{
+		width:100%;
+		max-width:100%;
+	}
 }
 
 .profile-card .profile-top .shape {
